@@ -8,9 +8,14 @@
   border: none;
   box-sizing: border-box;
 }
+ul {
+  padding: 0px !important;
+}
 
 body {
   background: #fafafa;
+  padding-bottom: 20px;
+  height: 100vh;
 }
 .main-container {
   padding: 20px;
@@ -18,7 +23,6 @@ body {
 .appHeader {
   padding: 20px;
   background-color: #2b63dc;
-  color: white;
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -30,7 +34,6 @@ body {
   margin-top: 77px;
   display: flex;
   justify-content: center;
-  height: calc(100vh - 250px);
 }
 
 .logo-img {
@@ -52,6 +55,7 @@ body {
 
 .container-card-div h1 {
   color: #949494;
+  font-size: 15px !important;
   margin-bottom: 10px;
 }
 
@@ -66,6 +70,7 @@ body {
   border-radius: 5px;
   border: 2px solid #e3e3e3;
   background-color: white;
+  margin-bottom: 40px;
 }
 .container-card-div ul > li > section {
   display: flex;
@@ -116,6 +121,7 @@ body {
 }
 
 .container-li-body p {
+  text-align: justify;
   width: calc(100% - 123px);
 }
 
@@ -126,4 +132,38 @@ body {
   background-color: #fed468;
   color: white;
   cursor: pointer;
+}
+
+.select-container {
+  margin-top: 20px;
+  max-width: 550px;
+  width: 100%;
+}
+
+.img-info {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+body > div:nth-child(6) > div > div.modal.fade.show {
+  margin-top: calc(100px) !important;
+}
+
+.modal-container-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+body
+  > div:nth-child(6)
+  > div
+  > div.modal.fade.show
+  > div
+  > div
+  > div.modal-footer
+  button {
+  max-width: 95px !important;
+  width: 100%;
 }
