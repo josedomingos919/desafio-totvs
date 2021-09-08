@@ -1,7 +1,7 @@
 # Desafio-TOTVS
 Desafio TOTVS- Desenvolvedor Frontend
 
-## “Na pasta Desafio TOTVS, tem umas imagens de sugestão de layout para que você possa se guiar.
+“Na pasta Desafio TOTVS, tem umas imagens de sugestão de layout para que você possa se guiar.
 
  
 O desafio contempla um filtro que exibe resultado no formato de cards.
@@ -20,7 +20,7 @@ O layout é para te guiar! Não precisa seguir detalhadamente.”
 
  
 
-Diferenciais:
+## Diferenciais:
 
 - Fazer teste unitários
 
